@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "commonjs",
+        "target": "es2019",
+        "esModuleInterop": true, // para fazer uma conversão dos modulos que ainda usam o commonjs
+        "allowJs": true // para aceitar arquivos de configuração .js ao inves de .json
+    }
+}
